@@ -27,3 +27,12 @@ if (4==5) {
     console.log('Error');
 }
 ```
+## Education:
+
+* Udemy course WEB-Developer
+* Udemy course JavaScript + React
+
+## Languages:
+
+Russian - Native.
+English - I understand what I'm reading
