@@ -47,7 +47,7 @@
 }
 
 .information {
-    height: 700px;
+    height: 500px;
     background-color:rgba(252, 239, 216, 0.788);
 }
 
@@ -74,4 +74,40 @@
 
 .adress {
     margin-top: 10px;
+}
+
+.descr_about {
+    margin-top: 10px;
+}
+
+.languag {
+    margin-top: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.descr_languag {
+    margin-top: 10px;
+}
+
+.educ_text {
+    margin-top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.skills_text {
+    margin-top: 35px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.courses {
+    margin-top: 10px;
+}
+
+.code_example {
+    margin-top: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
