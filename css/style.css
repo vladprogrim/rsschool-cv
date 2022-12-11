@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    background: url('/rsschool-cv/img/1645092948_23-phonoteka-org-p-ofisnii-fon-dlya-prezentatsii-23.jpg') center center/cover no-repeat;
+    height: 700px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head .descr .name {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.head .descr .divider {
+    width: 600px;
+    height: 4px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.head .descr .proffesion {
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.head .myPhoto {
+    display: block;
+    height: 500px;
+    width: 300px;
+    margin-top: 80px;
+}
