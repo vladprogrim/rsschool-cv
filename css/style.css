@@ -4,12 +4,43 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_nav {
+    height: 50px;
+    background-color: rgba(151, 163, 124);;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 100px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    color: white;
+    font-size: 20px;
+}
+
+.menu .menu_item a {
+    text-decoration: none;
+    padding-left: 100px;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 
-.promo {
+.main {
     background: url('/rsschool-cv/img/1645092948_23-phonoteka-org-p-ofisnii-fon-dlya-prezentatsii-23.jpg') center center/cover no-repeat;
     height: 700px;
 }
@@ -110,4 +141,37 @@
     margin-top: 30px;
     font-size: 40px;
     text-transform: uppercase;
+}
+
+.footer {
+    height: 70px;
+}
+
+.footer_nav {
+    background-color:rgba(151, 163, 124);;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.footer_img2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    align-items: center;
+    align-self: center;
+    width: 100px;
+    height: 69px;
+}
+
+.footer_img {
+    align-self: center;
+    width: 100px;
+    height: 65px;
+    margin-top: 10px;
 }
