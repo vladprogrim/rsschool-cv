@@ -1,16 +1,22 @@
 * {
+    font-family: 'Arial';
+    font-style: normal;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    display: grid;
+}
+
 .container {
-    width: 1140px;
+    width: 1280px;
     margin: 0 auto;
 }
 
 .promo {
-    background: url('/rsschool-cv/img/1645092948_23-phonoteka-org-p-ofisnii-fon-dlya-prezentatsii-23.jpg') center center/cover no-repeat;
+    background: url('/rsschool-cv/img/1645092948_23-phonoteka-org-p-ofisnii-fon-dlya-prezentatsii-23.jpg') center center / cover no-repeat;
     height: 700px;
 }
 
@@ -47,7 +53,7 @@
 }
 
 .information {
-    height: 500px;
+    height: 660px;
     background-color:rgba(252, 239, 216, 0.788);
 }
 
@@ -90,6 +96,14 @@
     margin-top: 10px;
 }
 
+.subjects {
+    font-size: 14px;
+}
+
+.title_sem {
+    font-size: 30px;
+}
+
 .educ_text {
     margin-top: 70px;
     font-size: 40px;
@@ -110,4 +124,34 @@
     margin-top: 30px;
     font-size: 40px;
     text-transform: uppercase;
+}
+
+.second_column {
+    margin-left: 40px;
+}
+
+.name_title {
+    margin-top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.name_term {
+    font-size: 25px;
+}
+
+.second_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
+
+.item {
+    width: 310px;
 }
